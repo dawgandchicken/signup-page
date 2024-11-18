@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+   <div class="body1">
+    <h1 id="myH1">Login</h1>
+    <p>Login page.</p>
+    <div class="container">
+ <form action="submit">
+    <div class="div1">
+      <div class="div2">Login</div>
+<fieldset><label id="email"><span class="label">Email: </span></label><div><input id="email" type="email" placeholder="Enter Email" required></div></fieldset>
+<fieldset><label id="password"><span class="label">Enter Password: </span></label><input id="password" type="text" type="number" minlength="8" maxlength="15" placeholder="Enter password" required></fieldset>
+<div class="forgot"><a href="#">Forgot Password?</a></div>
+
+
+
+<a href="index.html">Don't have an account?</a>
+
+<div>
+ <button type="submit" class="create" id="myBtn">Login</button>
+</div>
+ 
+<div class="google-button">
+    <div class="google">
+        <a href="#"><span class="continue"><i class='bx bxl-google'></i> Continue with Google</span></a>
+
+    </div>
+    </div>
+
+ </div>
+      </form>
+      </div>
+   </div>
+      <style>
+
+body {
+    background: linear-gradient(90deg, rgb(39, 39, 241), cornflowerblue);
+}
+
+label {
+    font-size: 1rem;
+    
+}
+
+.label {
+    padding-bottom: 12px;
+}
+
+        form input {
+    font-size: 14px;
+    font-weight: 500;
+    width: 270px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all 0.3s ease ;
+    border: 0;
+     
+}
+
+.forgot a {
+    position: relative;
+    left: -106px;
+    top: -10px;
+  font-size: 12px;
+  color: darkblue;
+}
+
+.create {
+    background-color: darkblue;
+    color: white;
+    width: 240px;
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    transition: all 0.3s ease ;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+   
+}
+
+.div2 {
+    background-color: darkblue;
+    color: white;
+    padding: 12px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+ }
+
+.google {
+    border: solid 2px;
+    border-color: #000;
+    background-color: #fff;
+    border-radius: 20px;
+  width: 200px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+    margin-top: 10px;
+   margin-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.continue {
+    font-size: 12px;
+}
+
+    .google a {
+    text-decoration: none; 
+    color: #000;
+  
+ }
+
+ .google:hover {
+    background-color: gainsboro;
+    border-radius: 4px;
+ }
+
+ i {
+    font-size: 22px;
+    
+ }
+
+@media screen and (max-width: 480px) {
+    
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+
+}
+
+
+      </style>
+</body>
+</html>
